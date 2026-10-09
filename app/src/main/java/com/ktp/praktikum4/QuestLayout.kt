@@ -1,6 +1,7 @@
 package com.ktp.praktikum4
 
 import androidx.compose.foundation.layout.Column
+import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.Spacer
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.fillMaxWidth
@@ -42,6 +43,10 @@ fun ActivitasPertama(modifier: Modifier) {
             colors = CardDefaults.cardColors(
                 containerColor = Color.DarkGray
             )
-        ) { }
+        ) {
+            Row() {
+
+            }
+        }
     }
 }
